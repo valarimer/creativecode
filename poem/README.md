@@ -1,10 +1,9 @@
-# FrankenPoem
+# Ovid Poem
 
-This project is a poem generator in Python. To see it run, download the [python script](frankpoem.py) and run it with Python or in a notebook. It will require [TextBlob](https://textblob.readthedocs.io), so make sure you've installed that first. 
+This project is a poem generator in Python. To run the code, you must download the ovidpoem.py file and download markovify.
 
-This script also assumes you have a file called "frankenstein.txt" in the same directory that the script runs from. The contents of that file can be anything you want to appropriate from. If you have different files, you can just change the filename reference on line 9 of the script.
+What this script will do is read the input file, and then run it through a markov chain. From there, it will print 4 short lines of randomized poetry with each line being 60 characters or less.  
 
-What this script will do is read the input file, parse it for parts of speech, then output a stanza of something that hopefully resembles poetry. The poetic quality of that output will vary widely based on the input. 
+I chose to use a markov chain in my code because I want to try something different than I had done last time I did a project like this. I thought that a Markov chain would be the best way to create a random poem that still might make some sense. 
 
-Honestly (or should I say "frankly"? Get it?) I don't usually find the output of this script particularly compelling, but I think it's a good demonstration of some important concepts like working with a library and parts of speech tagging.
-
+I personally think that my code has produced some unique an beautiful poems with my chosen text of the 10th book of Ovid's Metamorphoses. To me some of the best poems are brief with beautiful language, and my code produces poems that reflect that. I think that choosing to use a Markov chain definetely helped create my vision for a great poem generator. 
