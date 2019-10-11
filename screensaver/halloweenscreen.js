@@ -2,7 +2,7 @@ let bat;
 let cat;
 let ghost;
 let bckgrd;
-var changeDirection;
+var restart;
 var x = 0;
 var y = 100;
 var y2 = 500;
@@ -33,12 +33,12 @@ function draw() {
   cat.position(x,y5);
   
   if(x>width){
-		changeDirection=true}
+		restart=true}
 	else if (x<=0){
-		changeDirection=false}
+		restart=false}
 	
-	if (x>=0 && changeDirection == false){
+	if (x>=0 && restart == false){
 		x=x+1}
-	else if(changeDirection == true){
-		x=x-1}
+	else if(restart == true){
+		x=0}
 }
