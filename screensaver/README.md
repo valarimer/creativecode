@@ -1,7 +1,7 @@
-# Logo Bounce
+# Halloween Screen
 
-This project is a "screensaver" designed for the media wall in the HCC. The main image is a logo of umw with a solid-colored square behind it. That logo moves around in the open space and changes color whenever it strikes a wall. The walls around this space are designed to match the opening on the media wall, so the effect is the logo bouncing around on that irregularly-shaped screen. 
+This project is a "screensaver" designed for the media wall in the HCC. The theme of my screensaver is Halloween. Halloween is my favorite holiday, and with it coming up this month, I decided to make a cute screensaver for it. I used 4 main images for this screensaver, all of which are included in this repository. The first image is the background, which is an 8-bit style cemetery. The next three images are gifs of a cartoon bat, ghost, and cat. The screensaver is designed to generate two bats, two ghosts, and one cat going moving across the screen in different locations and then looping back to the beginning once it hits the edge. My original idea of a zigzag and flip was unable to work despite my best efforts.
 
-For version I'm sharing here, run it by copying the javascript [source code](forthewall.js) into a [p5.js editor](http://editor.p5js.org). Spawn new logos with the space bar.
+For version I'm sharing here, run it by copying the javascript [source code](halloweenscreen.js) into a [p5.js editor](http://editor.p5js.org). 
 
-The inspiration for this project is the classic [bouncing DVD logo](https://www.youtube.com/watch?v=QOtuX0jL85Y).
+The inspiration for this project is the [Fish screensaver](https://www.bryanbraun.com/after-dark-css/all/fish.html) from Bryan Braun.
