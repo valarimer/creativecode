@@ -1,14 +1,17 @@
 let bat;
 let cat;
 let ghost;
+let pumpkin;
+let witch;
 let bckgrd;
-var restart;
+var restartl;
+var restartr;
 var x = 0;
+var x2 = 1920;
 var y = 100;
-var y2 = 500;
-var y3 = 900;
-var y4 = 1300;
-var y5 = 1400;
+var y2 = 690;
+var y3 = 700;
+var y4= 850;
 
 //code used from forthewall.js//
 function preload(){
@@ -16,29 +19,39 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(1920, 1800);
+  createCanvas(1920, 1080);
   bat = createImg('bat.gif');
-  bat2 = createImg('bat.gif');
   cat = createImg('cat.gif');
-  ghost = createImg('ghost.gif');
-  ghost2 = createImg('ghost.gif');
+  ghost = createImg('GhostL.gif');
+  pumpkin = createImg('pumpkin.gif');
+  witch = createImg('witchr.gif');
 }
 
 function draw() {
   background(bckgrd); 
   bat.position(x,y);
-  ghost.position(x,y2);
-  bat2.position(x,y3);
-  ghost2.position(x,y4);
-  cat.position(x,y5);
+  ghost.position(x2,y2);
+  cat.position(x,y3);
+  pumpkin.position(850,520);
+  witch.position(x,y4);
   
   if(x>width){
-		restart=true}
+		restartl=true}
 	else if (x<=0){
-		restart=false}
+		restartl=false}
 	
-	if (x>=0 && restart == false){
-		x=x+1}
-	else if(restart == true){
+	if (x>=0 && restartl == false){
+		x=x+4}
+	else if(restartl == true){
 		x=0}
+  if(x2 == 0){
+		restartr=true}
+	else if (x2<=width){
+		restartr=false}
+	
+	if (x2<=width && restartr == false){
+		x2=x2-4}
+	else if(restartr == true){
+		x2=1920}
+  
 }
