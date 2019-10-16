@@ -8,9 +8,13 @@ The inspiration for this project is the [Fish screensaver](https://www.bryanbrau
 
 # Gif Sources
 [Witch] (https://www.deviantart.com/el-sato/art/Commission-Witch-run-618417906)
+
 [Ghost] (http://rebloggy.com/post/halloween-pixel-pixels-transparent/33797507001)
+
 [Bat] (https://giphy.com/stickers/halloween-spooky-bat-e7QR56Mun2vA4Fp0nI)
+
 [Pumpkin] (https://ya-webdesign.com/image/transparent-pumpkins-8-bit/1519974.html)
+
 [Cat] (https://gfycat.com/focusedgiddyjunco)
 
 # Background Source
