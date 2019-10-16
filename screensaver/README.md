@@ -18,4 +18,4 @@ The inspiration for this project is the [Fish screensaver](https://www.bryanbrau
 [Cat](https://gfycat.com/focusedgiddyjunco)
 
 # Background Source
-[Haunted House] (https://www.steamcardexchange.net/index.php?gamepage-appid-334100)
+[Haunted House](https://www.steamcardexchange.net/index.php?gamepage-appid-334100)
