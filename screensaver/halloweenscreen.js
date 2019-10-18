@@ -28,6 +28,7 @@ function setup() {
 }
 
 function draw() {
+  //this code generates the backgound and elements
   background(bckgrd); 
   bat.position(x,y);
   ghost.position(x2,y2);
@@ -35,6 +36,7 @@ function draw() {
   pumpkin.position(850,520);
   witch.position(x,y4);
   
+  //these if else statements allow the elements to move and restart once they leave the screen
   if(x>width){
 		restartl=true}
 	else if (x<=0){
