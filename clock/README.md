@@ -6,7 +6,7 @@ To read the clock's time, you must use the number decoding table below to determ
 
 The concepts demonstrated in the code rely on some of the examples shared by Golan Levin in the instructions for his class's [clock assignment](https://github.com/golanlevin/lectures/tree/master/lecture_clock). The look of the clock is meant to highlight the mystical and celestial qualities associated with astrology, numerology, and zodiacs. 
 
-I have a strong interest in astrology, as it is part of my family's culture. Because of this, I thought it would be interesting to use my knowledge of astrology and numerology to create a simple clock. It is something unique that I have not seen before in any iterations of clocks or telling time.
+I have a strong interest in astrology, as it is part of my family's culture. Because of this, I thought it would be interesting to use my knowledge of astrology and numerology to create a simple clock. It is something unique that I have not seen before in any iterations of clocks or telling time. All files required for this clock to work are included in the clock folder in this repository.
 
 # Clock Key
 
