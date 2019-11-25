@@ -56,7 +56,7 @@ html_template = f"""
   <title>Harry Potter and the Markov Chain</title>
   <style>
     body {{
-      font-family: "";
+      font-family: "Arial";
     }}
   </style>
   </head>
