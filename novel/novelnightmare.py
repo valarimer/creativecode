@@ -8,7 +8,7 @@ from google.colab import files
 import markovify
 import random
 from weasyprint import HTML
-novel = ''
+
 
 uploaded = files.upload()
 for fn in uploaded.keys():
